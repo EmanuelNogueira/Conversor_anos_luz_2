@@ -1,0 +1,68 @@
+* {
+  font-family: "josefin Sans";
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(90deg, #8400B8, #1800a3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+body .container {
+  margin: 120px 0px;
+  background-color: #fff;
+  width: 500px;
+  max-width: 100%;
+  box-shadow: 0 1px 5px;
+  border-radius: 10px;
+}
+body .container .box {
+  padding: 20px;
+}
+body .container .box .header {
+  padding: 20px;
+  background-color: rgba(100, 40, 90, 0.3);
+  border-radius: 10px;
+  color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+}
+body .container .box .box-control {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+  flex-direction: column;
+}
+body .container .box .box-control .card {
+  padding: 20px;
+  font-size: 1.4rem;
+  font-weight: 300;
+}
+body .container .box .box-control .card-button {
+  font-weight: 1000;
+  padding: 10px;
+  width: 100%;
+}
+body .container .box .box-control .card-button button {
+  margin: 10px;
+  font-size: 1.3rem;
+  padding: 5px;
+  width: 100%;
+  color: #fff;
+  background: linear-gradient(90deg, #8400B8, #1800a3);
+  border: 2px solid #1800a3;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 0 1px 1px #000;
+}
+
+/*# sourceMappingURL=style.css.map */
